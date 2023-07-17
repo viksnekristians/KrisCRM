@@ -1,0 +1,55 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.subscribe-btn {
+    height: 52px;
+    border-radius:12px;
+    background: red;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.home-body {
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    color: white;
+    min-height: 100vh;
+}
+
+.email-input {
+    height: 52px;
+    border-radius:6px;
+}
+
+.subscribe-label {
+    margin-right: 6px;
+}
+
+input[type=radio] {
+    margin-left:5px !important;
+    margin-right:5px !important;
+}
+
+.link-black {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    color: black;
+    text-underline-offset: 3px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.subscriber-count {
+    font-weight: 700;
+    font-size: 64px;
+}
+input[type=checkbox] {
+    width: 25px;
+    height: 25px;
+}
